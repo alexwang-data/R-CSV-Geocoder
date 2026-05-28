@@ -4,7 +4,6 @@ library(dplyr)            # for data manipulation
 library(tidygeocoder)     # for geocoding addresses
 library(sf)               # for spatial object conversion
 
-getwd()
 
 # 1) read your csv
 df <- read.csv("INSERT CSV HERE")
