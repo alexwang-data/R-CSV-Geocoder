@@ -6,7 +6,7 @@ A small R script for batch-geocoding addresses from a CSV using OpenStreetMap's 
 
 ## 🤔 Why R instead of ArcGIS?
 
-In ArcGIS Pro, geocoding is a lot of clicking. This script takes a CSV in, returns a desired file format with address validation, and requires minimal manual intervention. 
+In ArcGIS Pro, geocoding is a lot of clicking. This script takes a CSV in, returns a desired file format with address validation, and requires minimal manual intervention. It is particularly useful for recurring workflows where datasets are updated regularly, since rerunning the script is faster and more reproducible than repeating the same manual geocoding steps in ArcGIS.
 
 ## 📚 Libraries
 ```r
