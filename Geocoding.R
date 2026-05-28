@@ -15,7 +15,7 @@ df_clean <- df %>%
   mutate(
     Address = str_squish(Address),                   # format spacing
     address_valid = !is.na(Address) &                # condition 1: check if is not missing
-      Address != "" &                                # condition 2 :check if is not empty
+      Address != "" &                                # condition 2: check if is not empty
       !str_detect(str_to_lower(Address),             # converts everything to lower case for detection
                   "^(unknown|tbd|n\a|na|null)$")     # condition 3: check if is not null or unknown
   )
