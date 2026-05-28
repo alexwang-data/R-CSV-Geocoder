@@ -1,4 +1,4 @@
-# R-CSV-Geocoder
+# R-Geocoder
 
 ## 🕵️ Overview
 
